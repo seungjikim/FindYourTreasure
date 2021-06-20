@@ -1,0 +1,19 @@
+{
+  "name": "findyourtreasure",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "author": "seungjiqueen",
+  "license": "ISC",
+  "repository": "https://github.com/seungjikim/FindYourTreasure"
+}
