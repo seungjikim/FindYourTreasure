@@ -42,6 +42,7 @@ module.exports = {
                 targets: { node: "current" },
                 modules: "auto",
                 useBuiltIns: "usage",
+                corejs: 3,
               },
             ],
             "@babel/preset-react",
